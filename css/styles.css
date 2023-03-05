@@ -34,7 +34,6 @@
 
 /* styles for html */
 .page {
-    width: 1440px;
     background-color: var(--primary-bg-color);
     color: var(--title-text-color);
     font-family: Roboto, sans-serif;
@@ -607,7 +606,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(#FFFFFF 10%);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* background-color: var(--accent-color); */
@@ -732,7 +731,6 @@
 }
 
 .row-list .item:hover {
-    border: 1px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
